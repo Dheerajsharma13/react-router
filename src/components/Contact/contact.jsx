@@ -87,13 +87,14 @@ export default function Contact() {
                             </div>
                         </div>
 
-                        <form className="p-6 flex flex-col justify-center" autoComplete='true'>
+                        <form className="p-6 flex flex-col justify-center" >
                             <div className="flex flex-col">
                                 <label htmlFor="name" className="hidden">
                                     Full Name
                                 </label>
                                 <input
                                     type="name"
+                                    autoComplete='on'
                                     name="name"
                                     id="name"
                                     placeholder="Full Name"
@@ -107,6 +108,7 @@ export default function Contact() {
                                 </label>
                                 <input
                                     type="email"
+                                    autoComplete='on'
                                     name="email"
                                     id="email"
                                     placeholder="Email"
@@ -120,6 +122,7 @@ export default function Contact() {
                                 </label>
                                 <input
                                     type="tel"
+                                    autoComplete='on'
                                     name="tel"
                                     id="tel"
                                     placeholder="Telephone Number"
