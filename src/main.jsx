@@ -37,7 +37,7 @@ const router = createBrowserRouter(
       <Route path='/react-router/user/:userid' element ={<User />} />
       <Route 
       loader={githubInfoLoader}
-      path='github'
+      path='/react-router/github'
        element ={<Github />} />
     </Route>
   )
