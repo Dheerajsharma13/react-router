@@ -1,7 +1,7 @@
 {
   "homepage": "https://Dheerajsharma13.github.io/react-router",
   "name": "reactrouter",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {

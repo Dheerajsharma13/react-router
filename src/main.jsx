@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import { createBrowserRouter, createRoutesFromChildren, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, createRoutesFromChildren, createRoutesFromElements, HashRouter, Route, RouterProvider } from 'react-router-dom'
 import Layout from './Layout.jsx'
 import About from './components/About/About.jsx'
 import Home from './components/Home/Home.jsx'
@@ -44,7 +44,7 @@ const router = createBrowserRouter(
 )
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  <StrictMode> 
      <RouterProvider router={router}/>
   </StrictMode>,
 )
